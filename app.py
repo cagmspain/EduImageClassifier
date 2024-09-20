@@ -10,7 +10,7 @@ import os
 # Configuración de la página
 st.set_page_config(
     page_title="Clasificación de Imágenes",
-    page_icon="🤖",  # Emoji de robot
+    page_icon="🤖", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -20,7 +20,7 @@ model = MobileNetV2(weights='imagenet')
 
 # Función para predecir
 def predict_image(img):
-    if img.mode != "RGB":  # Asegurarse de que la imagen esté en RGB
+    if img.mode != "RGB":  # comprobar que la imagen esté en RGB, errores con rgba
         img = img.convert("RGB")
     img = img.resize((224, 224))  # Redimensionar la imagen
     img_array = image.img_to_array(img)
