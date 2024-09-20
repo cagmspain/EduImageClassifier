@@ -93,4 +93,8 @@ if uploaded_file is not None:
 
 # Pie de página
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>Esta aplicación usa el modelo MobileNetV2 preentrenado para clasificar imágenes en más de 1000 categorías.</p>", unsafe_allow_html=True)
+st.markdown( """
+    <p style='text-align: center;'>Esta aplicación usa el modelo MobileNetV2 preentrenado para clasificar imágenes en más de 1000 categorías.</p>
+    <p style='text-align: center;'>Código fuente disponible en <a href='https://github.com/tu_usuario/tu_repositorio' target='_blank'>GitHub</a>.</p>
+    """, 
+    unsafe_allow_html=True)
