@@ -14,7 +14,7 @@ Esta aplicación utiliza **MobileNetV2**, un modelo de deep learning preentrenad
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/nombre_proyecto.git
+   git clone github.com/cagmspain/EduImageClassifier
    ```
 2. Instala las dependencias necesarias:
    ```bash
@@ -27,8 +27,8 @@ Esta aplicación utiliza **MobileNetV2**, un modelo de deep learning preentrenad
 
 ## Requisitos
 
-- Python 3.x
-- TensorFlow 2.x
+- Python 3.0
+- TensorFlow 2.0
 - Streamlit
 - Pillow
 - gTTS (opcional, para la retroalimentación auditiva)
@@ -38,10 +38,6 @@ Esta aplicación utiliza **MobileNetV2**, un modelo de deep learning preentrenad
 1. Ejecuta la aplicación y carga una imagen.
 2. El modelo clasificará la imagen en una o más categorías.
 3. Opcional: Reproduce el audio con las predicciones.
-
-## Ejemplo de uso
-
-![Captura de pantalla](ruta_a_captura.png)
 
 ## Futuras mejoras
 
