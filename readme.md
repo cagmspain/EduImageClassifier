@@ -4,6 +4,8 @@
 
 Esta aplicación utiliza **MobileNetV2**, un modelo de deep learning preentrenado en el dataset **ImageNet**, para clasificar imágenes en más de 1,000 categorías diferentes. Se trata de una herramienta educativa diseñada para ayudar a los estudiantes a desarrollar su vocabulario a través de la interacción visual y auditiva con imágenes.
 
+https://eduimageclassifier-testing.streamlit.app/
+
 ## Características
 
 - **Clasificación de imágenes**: Permite subir imágenes y predice las categorías más probables.
